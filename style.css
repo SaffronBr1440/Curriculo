@@ -12,7 +12,7 @@ header{
     --fonte-secundaria: "Poppins", sans-serif;
     --cor-principal: #ffffff;
     --cor-secundaria: rgb(221, 217, 217);
-    --cor-azul : #808080;   
+    --cor-azul : #ca6161;   
     --cor-fundos: rgba(0, 0, 0, 0.267);
 }
 
@@ -97,12 +97,12 @@ header{
     align-items:center;
     gap: 5px;
     border: solid;
+    border-color:black;
     color:var(--cor-principal);
     border-radius: 20px;
     width:  80%;
     height: 40px;
     background-color: var(--cor-principal);
-
     justify-content: center;
 }
 
@@ -112,12 +112,12 @@ header{
     align-items:center;
     gap: 5px;
     border: solid;
+    border-color: black;
     color: var(--cor-secundaria);
     border-radius: 20px;
     width:  80%;
     height: 40px;
     background-color: var(--cor-secundaria);
-
     justify-content: center;
 }
 
